@@ -1,0 +1,29 @@
+// Fontes para o site 
+$fontePrincipal: "Roboto", serif;
+
+// Cores para o site 
+$corDeFundo: #f5f6fa;
+$corPrincipal: #182C61;
+$corSecundaria: #44bd32;
+
+// Adicionando responsividade 
+@media screen and (max-width: 1023px) {
+    .container {
+        max-width: 80%;
+    }
+
+    .products {
+        grid-template-columns: repeat(2, 48.5%);
+        column-gap: 3%;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .products {
+        display: block;
+    }
+
+    .product-item  {
+        margin-bottom: 32px;
+    }
+}

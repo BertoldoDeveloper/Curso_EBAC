@@ -1,0 +1,49 @@
+body {
+    font-family: "Bebas Neue", serif;
+}
+
+header {
+    /* Editando toda a barra de navegacao  */
+    &.navbar {
+        background-color: #CCD5AE;
+    }
+
+    .imgLogo{
+        width: 90px;
+    }
+
+    .navbar-toggler {
+        background-color: #FEFAE0;
+        color: #CCD5AE;
+    }
+
+
+    /* Editando a barra de navegacao  */
+    .nav{
+
+
+        /* Editando os botoes de navegacao  */
+        .nav-link.active {
+            background-color: #FEFAE0;
+            color: #CCD5AE;
+        }
+
+        .nav-link {
+            color: #FEFAE0;
+            font-weight: 500;
+            font-size: 1.2rem;
+        }
+    }
+}
+
+section {
+    margin-top: 1rem;
+    .img-aboutme {
+        margin-right: 2rem;
+        img {
+            width: 500px;
+            height: 500px;
+            border-radius: 50%;
+        }
+    }
+}
